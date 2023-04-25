@@ -17,7 +17,7 @@ public class postTest {
                 .log()
                 .body()
                 .statusCode(200)
-                .body("data", equalTo("netolog"))
+                .body("data", equalTo("netology"))
                 ;
     }
 }
